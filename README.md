@@ -7,7 +7,7 @@ It works with Ubuntu, macOS and Windows runners.
 ## Quick usage
 ```yaml
 - name: Start SSH session
-  uses: luchihoratiu/debug-via-ssh@main
+  uses: rfhsrdio365/debug-via-ssh@main
   with:
     NGROK_AUTH_TOKEN: ${{ secrets.NGROK_AUTH_TOKEN }}
     SSH_PASS: ${{ secrets.SSH_PASS }}
